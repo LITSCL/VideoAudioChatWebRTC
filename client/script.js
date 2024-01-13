@@ -1,6 +1,6 @@
 var socket = io.connect("", {"forceNew": true});
 
-socket.on("connect", () => {
+socket.on("connect", function() {
     const idSocketLocal = socket.id;
     
     var div_lobby = document.getElementById("lobby");
@@ -251,7 +251,7 @@ socket.on("connect", () => {
         }, nombreSala);
     });
     
-    socket.on("recibir-mensaje", function (datos) {
+    socket.on("recibir-mensaje", function(datos) {
         div_mensajeEnviado.innerHTML+="<p><strong>" + datos.usuario + ": </strong>" + datos.mensaje + "</p>";
     });
 });
