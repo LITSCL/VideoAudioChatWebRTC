@@ -1,7 +1,7 @@
 {
   "name": "VideoAudioChatWebRTC",
   "version": "1.0.0",
-  "description": "Muestra de funcionamiento de transmici�n de audio y video con WebRTC (M�ximo 2 personas por sala), además incluye un Chat",
+  "description": "Muestra de funcionamiento de transmicion de audio y video con WebRTC (Maximo 2 personas por sala), además incluye un Chat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "author": "Daniel",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.0",
     "socket.io": "^4.0.0"
   }
 }
